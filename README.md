@@ -1,38 +1,24 @@
 # ICASSP-2024-auditory-eeg-challenge
 AUDEEG challenge for ICASSP 2024
+Prawesh Dahal (November 2023)
 
-# Project Title
+# Project 
 
-One Paragraph of project description goes here
+To establish relationship between EEG and auditory stimulus.
 
 ## Table of Contents
 
 - [Project Title](#project-title)
 - [Description](#description)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+ 
 
 ## Description
 
-Provide a brief overview of your project here. Explain the purpose, features, and goals of the project. Use this section to grab the reader's attention and explain why your project is useful or important.
+Goal: build the best model to relate speech to EEG. 
+Dataset: Auditory EEG dataset from 105 subjects who listened to ~108 minutes of single-speaker stimuli for a total of around 200 hours of data. 
+Tasks: We define two tasks:
 
-## Installation
+(1) Match-mismatch: given 5 segments of speech and a segment of EEG, which segment of speech matches the EEG?
 
-Provide step-by-step instructions on how to install and run your project. Include any prerequisites, dependencies, or requirements needed to run the project successfully. You can also include code examples to help users understand the installation process easily.
-
-## Usage
-
-Demonstrate how your project can be used. Include examples and explanations to guide users on how to utilize your project effectively. You can also provide screenshots or GIFs to showcase the project's functionality.
-
-## Contributing
-
-Explain how others can contribute to your project. Include guidelines for pull requests, coding standards, and other relevant information. You can also mention ways for contributors to contact you or the team.
-
-## License
-
-Specify the license under which your project is released. For example, you can use licenses like MIT, Apache, GPL, etc. Include the full text of the license or provide a link to the license file.
-
-
-
+(2) Regression: reconstruct the mel spectorgram from the EEG! . We provide the dataset, code for preprocessing the EEG and for creating commonly used stimulus representations, and two baseline methods.
+  
