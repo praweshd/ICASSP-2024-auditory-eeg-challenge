@@ -49,7 +49,15 @@ class Dataset_EEG(Dataset):
         return torch.from_numpy(Xdata.copy())
     
 
+# Create an instance of the Dataset_EEG class
+dataset = Dataset_EEG()
+print(len(dataset))
 
+# Access the Xdata
+for i in range(len(dataset)):
+    Xdata = dataset[0]
+
+    #print(f"Xdata for index {i}: {Xdata}")
 
 
 
