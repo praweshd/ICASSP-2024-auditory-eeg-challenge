@@ -1,25 +1,14 @@
-# ICASSP-2024-auditory-eeg-challenge
-AUDEEG challenge for ICASSP 2024
-
-Prawesh Dahal (November 2023)
+# Dogs vs. Cats Redux: Kernels Edition
+Kaggle competition - PyTorch
+Prawesh Dahal 
 
 # Project 
 
-To establish relationship between EEG and auditory stimulus.
+The infamous Dogs vs. Cats classification problem as a playground competition!  
 
-## Table of Contents
+## Dataset 
 
-- [Project Title](#project-title)
-- [Description](#description)
+The train folder contains 25,000 images of dogs and cats. Each image in this folder has the label as part of the filename. The test folder contains 12,500 images, named according to a numeric id. For each image in the test set, you should predict a probability that the image is a dog (1 = dog, 0 = cat).
+
+Obtained from Kaggle.
  
-
-## Description
-
-Goal: build the best model to relate speech to EEG. 
-Dataset: Auditory EEG dataset from 105 subjects who listened to ~108 minutes of single-speaker stimuli for a total of around 200 hours of data. 
-Tasks: We define two tasks:
-
-(1) Match-mismatch: given 5 segments of speech and a segment of EEG, which segment of speech matches the EEG?
-
-(2) Regression: reconstruct the mel spectorgram from the EEG! . We provide the dataset, code for preprocessing the EEG and for creating commonly used stimulus representations, and two baseline methods.
-  
